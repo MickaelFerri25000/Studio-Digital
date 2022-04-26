@@ -1,0 +1,27 @@
+@import '~@csstools/normalize.css';
+@import 'styles/fonts.scss';
+@import 'styles/colors.scss';
+@import 'layout/header.scss';
+@import 'styles/cta.scss';
+@import 'layout/sections.scss';
+
+@font-face {
+    font-family: 'Sofia Pro';
+    src: url('../sofia-pro-cufonfonts/light.woff2') format('woff2');
+    src: url('../sofia-pro-cufonfonts/light.ttf') format('truetype'); 
+    src: url('../sofia-pro-cufonfonts/regular.woff2') format('woff2');
+    src: url('../sofia-pro-cufonfonts/regular.ttf') format('truetype');
+    src: url('../sofia-pro-cufonfonts/semibold.woff2') format('woff2');
+    src: url('../sofia-pro-cufonfonts/semibold.ttf') format('truetype'); 
+}
+
+* {
+    margin: 0;
+    list-style: none;
+    padding: 0;
+}
+
+body {
+    font-family: 'Sofia Pro';
+    font-weight: 400;
+}

@@ -1,0 +1,40 @@
+header {
+    position: relative;
+    img {
+        position: absolute;
+        left: 0;
+        top: -40px;
+        width: 100%;
+        height: 600px;
+        object-fit: cover;
+        object-position: bottom;
+        z-index: -8;
+    }
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 40px 164px; 
+        ul {
+            display: flex;
+            li {
+                list-style: none;
+            }
+            li a {
+                text-decoration: none;
+                margin-right: 24px;
+                color: $black;
+                font-weight: 400;
+            }
+            h1 a {
+                font-size: 22px;
+                display: flex;
+                font-weight: 900;
+            }
+
+            .active-link {
+                color: $primary;
+            }
+        }
+    }
+}

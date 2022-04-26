@@ -1,0 +1,32 @@
+.section-1 {
+    display: flex;
+    margin-top: 16px;
+    margin-left: 164px;
+    margin-right: 164px;
+    justify-content: space-between;
+    color: $black;
+    .left {
+        .filter-studio {
+            margin-bottom: 12px;
+            background-color: $background-1;
+            padding: 8px 12px;
+            border: solid 1px #BAB2B2;
+            width: 116px;
+            text-align: center;
+            border-radius: 90px;
+            font-weight: 300;
+        }
+        h1 {
+            margin-bottom: 16px;
+            line-height: 44px;
+        }
+        div {
+            margin-top: 44px;
+        }
+    }
+    .right {
+        img {
+            transform: translateY(164px);
+        }
+    }
+}
