@@ -4,6 +4,7 @@
 @import 'layout/header.scss';
 @import 'styles/cta.scss';
 @import 'layout/sections.scss';
+@import 'layout/responsive.scss';
 
 @font-face {
     font-family: 'Sofia Pro';
@@ -24,4 +25,25 @@
 body {
     font-family: 'Sofia Pro';
     font-weight: 400;
+    overflow-x: hidden;
 }
+
+@keyframes rotate {
+    from {
+      transform: rotate(0);
+    }
+    to {
+      transform: rotate(120deg);
+    }
+  }
+  
+  #cursor_arround {
+    display: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px dotted $primary;
+    position: absolute;
+    animation: rotate 3.5s infinite linear;
+  }
+  

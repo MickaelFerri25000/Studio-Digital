@@ -1,11 +1,12 @@
 .section-1 {
     display: flex;
-    margin-top: 16px;
-    margin-left: 164px;
-    margin-right: 164px;
+    max-width: 1200px;
+    width: 80%;
+    margin: 0 auto;
     justify-content: space-between;
     color: $black;
     .left {
+        max-width: 100%;
         .filter-studio {
             margin-bottom: 12px;
             background-color: $background-1;

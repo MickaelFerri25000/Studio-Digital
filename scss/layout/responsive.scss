@@ -1,0 +1,48 @@
+@media screen and (max-width: 1200px) {
+    header {
+        nav.header{
+            padding: 40px 72px; 
+            ul.left {
+                li a{
+                    display: none;
+                }
+                .icone {
+                    span {
+                        position: relative;
+                        display: block;
+                        background-color: $black;
+                        height: 3px;
+                        width: 24px;
+                        cursor: pointer;
+                        &::after {
+                            position: absolute;
+                            left: 0;
+                            bottom: 8px;
+                            display: block;
+                            content: "";
+                            background-color: $black;
+                            height: 3px;
+                            width: 32px;
+                        }
+                    }
+                }
+            }
+            ul.middle {
+                display: none;
+            }
+        }
+        nav.menu-bg {
+            display: block;
+            z-index: 9999;
+        }
+        .none {
+            display: none;
+        }
+    }
+    .section-1 {
+        display: flex;
+        margin-top: 1px;
+        margin-left: 72px;
+        margin-right: 72px;
+    }
+}
